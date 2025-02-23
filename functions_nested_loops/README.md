@@ -1,43 +1,47 @@
-# Low-Level Programming - Variables, if, else, while
+# Functions and Nested Loops in C
+
+## Description
+This project explores **functions and nested loops** in C. It covers topics 
+like function prototypes, scope of variables, header files, and proper use 
+of the `putchar` function. The code follows **Betty coding style** and is 
+compiled with **GCC using the `-Wall -Werror -Wextra -pedantic -std=gnu89` flags**.
+
+---
 
 ## Tasks
 
-### 0. Positive anything is better than negative nothing
-**File:** `0-positive_or_negative.c`  
-Generates a random number and prints whether it is positive, negative, or zero.
+### **0. _putchar**
+- Prints `_putchar` followed by a new line using `_putchar` only.
 
-### 1. The last digit
-**File:** `1-last_digit.c`  
-Prints the last digit of a randomly generated number and describes its value.
+### **1. Print Alphabet**
+- Prints the lowercase alphabet using `_putchar` only twice.
 
-### 2. I sometimes suffer from insomnia
-**File:** `2-print_alphabet.c`  
-Prints the lowercase alphabet using `putchar`.
+### **2. Print Alphabet x10**
+- Prints the lowercase alphabet **10 times** using `_putchar` twice.
 
-### 3. alphABET
-**File:** `3-print_alphabets.c`  
-Prints the alphabet in lowercase, then in uppercase, using `putchar`.
+### **3. islower**
+- Checks if a character is lowercase. Returns `1` for lowercase, `0` otherwise.
 
-### 4. Alphabet soup
-**File:** `4-print_alphabt.c`  
-Prints the lowercase alphabet except for `q` and `e`, using `putchar`.
+### **4. isalpha**
+- Checks if a character is an alphabet letter (lowercase or uppercase).
 
-### 5. Numbers
-**File:** `5-print_numbers.c`  
-Prints all single-digit numbers of base 10.
+### **5. Sign**
+- Prints the sign of a number and returns `1`, `0`, or `-1`.
 
-### 6. Numberz
-**File:** `6-print_numberz.c`  
-Prints all single-digit numbers of base 10 without using `char`.
+### **6. Absolute Value**
+- Computes the absolute value of an integer.
 
-### 7. Smile in the mirror
-**File:** `7-print_tebahpla.c`  
-Prints the lowercase alphabet in reverse using `putchar`.
+### **7. Last Digit**
+- Prints and returns the last digit of a given number.
 
-### 8. Hexadecimal
-**File:** `8-print_base16.c`  
-Prints all numbers of base 16 in lowercase using `putchar`.
+### **8. Jack Bauer**
+- Prints every minute of the day from `00:00` to `23:59`.
 
-### 9. Patience, persistence, and perspiration
-**File:** `9-print_comb.c`  
-Prints all possible combinations of single-digit numbers separated by `, `.
+### **9. Times Table**
+- Prints the **9 times table**, starting from 0.
+
+### **10. Addition**
+- Returns the sum of two integers.
+
+### **11. Print to 98**
+- Prints all natural numbers from `n` to `98`, in order.
