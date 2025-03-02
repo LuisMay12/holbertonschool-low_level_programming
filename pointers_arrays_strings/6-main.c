@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -7,15 +8,11 @@
  */
 int main(void)
 {
-    char *str;
+    char str[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+    char *ptr;
 
-    str = "Lorem ipsum dolor sit amet, consectetur "
-      "Sed do eiusmod tempor incididunt ut labore et dolore "
-      "Ut enim ad minim veniam, quis nostrud exercitation "
-      "nisi ut aliquip ex ea commodo consequat. Duis aute "
-      "reprehenderit in voluptate velit esse cillum dolore "
-      "Excepteur sint occaecat cupidatat non proident, sunt "
-      "deserunt mollit anim id est laborum.";
-    puts2(str);
+    ptr = cap_string(str);
+    printf("%s", ptr);
+    printf("%s", str);
     return (0);
 }
